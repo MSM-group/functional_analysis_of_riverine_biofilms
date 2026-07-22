@@ -2,7 +2,10 @@
 
 This repository contains the Python scripts and datasets required to reproduce the statistical analyses described in the following study:
 
-> **[Insert Full Paper Title Here]** > *Authors: [Insert Authors]* > **DOI:** [Insert DOI Link Here]
+> **Assessing Field-Scale Effects of Treated Wastewater on Riverine Biofilms: Community Composition, Functional Genes, and Micropollutant Biotransformation** 
+> > *Authors: 
+Martina Kalt; Victoria Poltorak; Eleonora Mastrorilli; Elia Ceppi; Yaochun Yu; Shinichi Sunagawa; Michael Zimmermann; Serina L. Robinson;
+> Corresponding Author: Dr. Kathrin Fenner]* > **DOI:** [Insert DOI Link Here]
 
 
 ## Repository Structure
