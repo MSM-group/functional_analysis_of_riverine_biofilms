@@ -21,14 +21,12 @@ Martina Kalt; Victoria Poltorak; Eleonora Mastrorilli; Elia Ceppi; Yaochun Yu; S
 ## Scripts
 
 ### 1. Feature Table Correlation
-**File:** `20250610_feature_table_correlation_matrix.py`  
-Calculates the correlation values between all EC classes, across samples, for each individual compound.
+**File:** `scripts/python/20260424_mann_whitney_u_test_above_vs_below_lod.py`  
+Mann-Whitney U-test for all the unique EC classes, comparing biotransformin samples vs non-biotransforming samples across samples, for individual compound.
 
 ### 2. Spearman Correlation (EC vs. Rates)
-**File:** `20260116_spearman_correlation_ec_abu_vs_rate.py`  
-Computes and visualizes the correlation matrix comparing EC abundances against specific river parameters.
+**File:** `scripts/python/20260428_random_forest_classification_analysis.py`  
+Trains a Random Forest classifier model riverine parameters and EC features, to predict biotransforamtion. This script outputs a **Feature Importance** bar plot.
 
-### 3. Random Forest Regression
-**File:** `202560218_random_forest_regression_analysis.py`  
-Trains a Random Forest model on the chosen set of parameters. This script outputs a **Feature Importance** bar plot.
+
 
