@@ -10,11 +10,15 @@ Martina Kalt; Victoria Poltorak; Eleonora Mastrorilli; Elia Ceppi; Yaochun Yu; S
 
 ## Repository Structure
 
-| Directory | Description                                              |
-| :--- |:---------------------------------------------------------|
-| `scripts/python/` | Python scripts for data processing and modeling.         |
-| `data/` | Input files (feature tables, EC abundances).             |
-| `output/` | including correlation values, scripts output destination |
+| Directory                  | Description                                              |
+|:---------------------------|:---------------------------------------------------------|
+| `scripts/python/`          | Python scripts for data processing and modeling.         |
+| `scripts/R/`               | Python scripts for amplicon data analysis with FAPROTAX  |
+| `scripts/bash/`            | bash script for FAPROTAX execution                       |
+| `data/`                    | Input files (feature tables, EC abundances).             |
+| `data/amplican_analysis`   | Input files for FAPROTAX analysis                        |
+| `output/`                  | including correlation values, scripts output destination |
+| `output/amplicon_analysis` | including correlation values, scripts output destination |
 
 ---
 
@@ -28,5 +32,18 @@ Mann-Whitney U-test for all the unique EC classes, comparing biotransformin samp
 **File:** `scripts/python/20260428_random_forest_classification_analysis.py`  
 Trains a Random Forest classifier model riverine parameters and EC features, to predict biotransforamtion. This script outputs a **Feature Importance** bar plot.
 
+### 3. ASV based relative taxonomic abundances 
+**File:** `scripts/R/20260826_asv_based_taxonomic_abundance_table.R`
+Aggregates asv counts by taxonomic annotation 
 
+### 4. Reformatting input tabel for FAPROTAX usage 
+**File:** `scripts/R/20260826_prepare_input_table_faprotax.R`
 
+### 5. FAPROTAX execution script 
+**File:** `scripts/bash/20260826_execute_faprotax.sh`
+
+### 6. Plotting estimated heterotroph/autotroph relative abundances 
+**File:** `scripts/R/20260827_plotting_community_abundance_auto_hetero_ratios.R`
+
+### 7. Plotting estimated heterotroph/autotroph relative abundances 
+**File:** `scripts/R/20260827_plotting_faprotax_community_abundance_ratios.R`
