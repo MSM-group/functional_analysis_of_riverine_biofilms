@@ -1,4 +1,4 @@
-# Functional analysis of riverine biofilms'
+# Functional analysis of riverine biofilms
 This repository contains the Python scripts and datasets required to reproduce the statistical analyses described in the following study:
 
 > **Assessing Field-Scale Effects of Treated Wastewater on Riverine Biofilms: Community Composition, Functional Genes, and Micropollutant Biotransformation** 
